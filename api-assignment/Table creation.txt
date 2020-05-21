@@ -1,0 +1,3 @@
+
+create table user (username varchar(255) not null, password varchar(255), email varchar(255),address varchar(255) , primary key (username))
+create table article (title varchar(255) not null, body varchar(255), author varchar(255),  access_token varchar(255), primary key (title))
